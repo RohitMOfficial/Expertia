@@ -1,0 +1,58 @@
+.topnav {
+    
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2b2929;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 40px;
+  }
+  
+  /* Change the color of links on hover */
+  
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    
+    color: white;
+  }
+
+  .white-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    border:2px solid rgb(184, 178, 178);
+    padding-left: 25px;
+  }
+
+  .paytm{
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(49, 46, 46);
+    
+  }
+  .ver-line{
+    float: right;
+    background-color: black;
+    width: 2px;
+    height: 30px;
+
+  }
+  .createa{
+    background-color: rgb(87, 32, 175);
+    width: 200px;
+   
+  }
+  .create{
+    font-size: 15px;
+    
+  }
+  

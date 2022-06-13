@@ -1,0 +1,44 @@
+.carddiv{
+    border: 2px solid gray;
+    width: 350px;
+    height: 200px;
+    display: grid;
+    grid-template-rows: 0.5fr 4fr 1fr;
+    overflow: visible;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.top span{
+    font-weight: bold;
+
+}
+.top{
+    font-size: 10px;
+    padding-left: 20px;
+}
+.middle{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+}
+.source-value{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.source-value h6{
+    margin-top: 24px;
+    margin-left:-20px;
+}
+.bottom{
+   
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    padding-left: 10px;
+    
+}
+.bottom button{
+    background-color: rgb(87, 32, 175);
+    color: white;
+}

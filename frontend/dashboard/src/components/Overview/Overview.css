@@ -1,0 +1,65 @@
+.overviewtop{
+    overflow: hidden;
+}
+.overviewtop p{
+    float: left;
+    color: #534b4b;
+    text-align: center;
+    padding: 14px 16px;
+    padding-left: 25px;
+}
+.overviewtop a{
+    float: right;
+    color: #534b4b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 25px;
+}
+
+.topnavbar {
+    overflow: hidden;
+    
+    border-bottom: 2px solid gray;
+  }
+  
+  .topnavbar a {
+    float: left;
+    color: #534b4b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 25px;
+    
+  }
+  
+  .topnavbar a:hover {
+    
+    color: black;
+    border-bottom: 2px solid blue;
+  }
+  
+  
+  .overviewdiv{
+    margin-top: 20px;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    overflow: auto;
+    
+
+  }
+  .topnavbar a.add{
+    float: right;
+    
+    color: rgb(86, 58, 138);
+  }
+  .cardindiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 40px;
+  }
+  
